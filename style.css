@@ -40,6 +40,7 @@ header{
 .navbar a{
     color: var(--text-color);
     font-size: 1.8rem;
+    font-weight: 650;
     padding: 5px 15px;
     transform: all .42s;
 }
@@ -137,23 +138,97 @@ section{
 
 /* Recent Products section started */
 .products{
-    margin: 85px;
     background: var(--secondary-color);
+}
+.products-heading{
+    margin: 1.5rem 0; 
+    margin-top: 40px;
+    text-align: center;
 }
 .products-heading h2{
     font-size: 3.5rem;
-    text-align: center;
     color: var(--text-color);
 }
 .products-heading p{
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: var(--text-color);
-    margin-bottom: 0px;
+    padding: 12px;
 }
 
 .main-product{
+    padding: 18px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.product-details{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 16px;
+    border-bottom-left-radius: 0px;
+    border: 1.5px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
+    transition: all .42s;
+}
+.product-details:hover{
+    box-shadow: rgba(0,0,0,0.16) 0px 1px 4px;
+    transform: scale(1.05);
+}
+.product-img{
+    text-align: center;
+    background-color: #cfc4c4;
+    border-radius: 12px;
+}
+.product-img img{
+    width: 180px;
+    height: 200px;
+}
+.product-details{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.product-icon i{
+    color: var(--text-color);
+    font-size: 1rem;
+    padding: 1px;
+    margin: 5px 0px;
+}
+.product-text h3{
+    font-size: 1rem;
+    color: var(--text-color);
+    margin-bottom: 8px;
+}
+.product-text h5{
+    font-size: 1rem;
+    color: var(--hov-color);
+    margin: 5px 0px;
+}
+.product-text span{
+    text-decoration: line-through;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    margin-right: 5px;
+}
+.product-text .cart{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.cart{
+    background-color: var(--hov-color);
+    padding: 8px 10px;
+    border-top-left-radius: 12px;
+    border: 1.5px solid var(--primary-color);
+}
+.cart h4{
+    color: var(--secondary-color);
+    font-size: 0.9rem;;
+    cursor: pointer;
 }
 /* Recent Products section Ended */
