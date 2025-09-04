@@ -268,6 +268,8 @@ section{
     align-content: center;
     justify-content: center;
 }
+
+
 .shop-content{
     width: 110px;
     height: 110px;
@@ -317,8 +319,6 @@ section{
 .content-text i:hover{
     color: var(--hov-color);
 }
-
-
 
 
 .shop-container{
@@ -411,4 +411,56 @@ section{
     color: var(--secondary-color);
     border: 1.5px solid var(--hov-color);
 }
+.shop-text p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--hov-color);
+    color: var(--secondary-color);
+    padding: 5px 10px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+}
 /* Shop section ended */
+
+
+/* Grocery Section started  */
+.grocery{
+    background-color: #ffffff;
+}
+.grocery-heading{
+    margin: 1.5rem 0; 
+    margin-top: 45px;
+    text-align: center;
+}
+.grocery-heading h2{
+    font-size: 3.2rem;
+    color: var(--text-color);
+}
+.grocery-heading p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    padding: 12px;
+}
+.grocery-banner{
+    width: 950px;
+    height: 350px;
+    margin-top: 20px;
+    background-color: #f3eeee;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    border: 1.5px solid #4e4c4c;
+}
+.grocery-banner img{
+    width: 900px;
+    height: 300px;
+    border-radius: 12px;
+    align-items: center;
+}
+/* Grocery section started  */
