@@ -428,7 +428,7 @@ section{
 
 /* Grocery Section started  */
 .grocery{
-    background-color: #ffffff;
+    background-color: #F8F8F9;
 }
 .grocery-heading{
     margin: 1.5rem 0; 
@@ -446,10 +446,10 @@ section{
     padding: 12px;
 }
 .grocery-banner{
-    width: 950px;
-    height: 350px;
+    width: 900px;
+    height: 280px;
     margin-top: 20px;
-    background-color: #f3eeee;
+    background-color: #fff6f6;
     align-items: center;
     align-content: center;
     justify-content: center;
@@ -458,9 +458,112 @@ section{
     border: 1.5px solid #4e4c4c;
 }
 .grocery-banner img{
-    width: 900px;
-    height: 300px;
+    width: 850px;
+    height: 250px;
     border-radius: 12px;
     align-items: center;
+}
+.grocery-banner img:hover{
+    transform: scale(1.05);
+    transition: all .5s;    
+}
+.grocery-content{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.grocery-box{
+    width: 200px;
+    height: 260px;
+    position: relative;
+    padding: 10px 15px;
+    margin: 15px;
+    border-radius: 16px;
+    border: 1.5px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    transition: all .42s;
+}
+.grocery-img{
+    text-align: center;
+}
+.grocery-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.grocery-box img:hover{
+    transform: scale(1.1);
+}
+.grocery-text{
+    display: flex;
+    position: relative;
+    text-align: center;
+    gap: 3.5rem;
+}
+.grocery-text h3{
+    font-size: 1.1rem;
+    color: var(--text-color);
+}
+.grocery-text p{
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+.grocery-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.grocery-price p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+.grocery-price h4{
+    font-size: 1.2rem;
+    color: var(--hov-color);
+}
+.grocery-btn{
+    display: flex;
+    position: absolute;
+    gap: 0.5rem;
+    margin-top: 5px;
+}
+.grocery-btn .btn1{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 6px 5px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1.5px solid var(--primary-color);
+    transition: all .42s;
+    cursor: pointer;
+}
+.grocery-btn .btn1:hover{
+    background-color: var(--hov-color);
+    border: 1.5px solid var(--hov-color);
+    color: var(--secondary-color);
+}
+.grocery-btn .btn2{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 6px 5px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1.5px solid var(--primary-color);
+    transition: all .42s;
+    cursor: pointer;
+}
+.grocery-btn .btn2:hover{
+    background-color: var(--hov-color);
+    border: 1.5px solid var(--hov-color);
+    color: var(--secondary-color);
 }
 /* Grocery section started  */
