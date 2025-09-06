@@ -477,7 +477,7 @@ section{
 }
 .grocery-box{
     width: 200px;
-    height: 260px;
+    height: 280px;
     position: relative;
     padding: 10px 15px;
     margin: 15px;
@@ -503,14 +503,15 @@ section{
     display: flex;
     position: relative;
     text-align: center;
-    gap: 3.5rem;
+    gap: 6rem;
 }
 .grocery-text h3{
     font-size: 1.1rem;
     color: var(--text-color);
+    width: 12px;
 }
 .grocery-text p{
-    font-size: 1rem;
+    font-size: 0.7rem;
     font-weight: bold;
     color: var(--text-color);
 }
@@ -567,3 +568,59 @@ section{
     color: var(--secondary-color);
 }
 /* Grocery section started  */
+
+
+/* About section started */
+.about{
+    display: flex;
+    position: relative;
+    background-color: var(--secondary-color);
+    margin-top: 65px;
+}
+.about-img{
+    width: 50%;
+    height: 100%;
+}
+.about-img img{
+    width: 350px;
+    height: 350px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+.about-content{
+    width: 50%;
+    height: 100%;
+    padding: 5px;
+    margin-top: 80px;
+}
+.about-content h2{
+    font-size: 2.5rem;
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+.about-content p{
+    width: 500px;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.about-content .btn{
+    display: inline-block;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    padding: 12px 10px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    transition: all .42s;
+    cursor: pointer;
+}
+.about-content .btn:hover{
+    background-color: var(--hov-color);
+    color: var(--secondary-color);
+    box-shadow: rgba(0,0,0,0.16) 0px 1px 4px;
+}
+
+/* About section ended */
