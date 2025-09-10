@@ -710,7 +710,6 @@ form{
 /* Footer Section Started */
 .footer{
     background-color: var(--primary-color);
-    position: absolute;
     width: 100%;
     height: 300px;
     min-height: 50px;
@@ -719,21 +718,47 @@ form{
 } 
 .footer-content{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 .footer-text{
-    text-align: center;
+    text-align: left;
+    color: var(--secondary-color);
+    padding: 5px;
 }
-
-
+.footer-text h3{
+    font-size: 2rem;
+    margin-top: 15px;
+}
+.footer-text p{
+    font-size: 1.2rem;
+    margin-top: 8px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.footer-media{
+    margin-top: 20px;
+    text-align: right;
+}
+.footer-media a{
+    font-size: 1.3rem;
+    padding: 5px 10px;
+    color: var(--secondary-color);
+    background-color: #4e4c4c;
+    border-radius: 5px;
+    transition: all .42s;
+}
+.footer-media a:hover{
+    background-color: var(--hov-color);
+    color: var(--secondary-color);
+}
 .footer-mark{
-    margin-top: 15%;
+    margin-top: 8%;
     text-align: center;
 }
+
 .footer-mark p{
     color: var(--secondary-color);
+    padding: 5px;
     font-size: 1rem;
 }
-/* Footer Section Ended */
+/* Footer Section Ended *
